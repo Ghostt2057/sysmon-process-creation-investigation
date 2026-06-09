@@ -30,7 +30,7 @@ Sysmon provides detailed visibility into process execution, command-line argumen
 
 ## 1. Sysmon Operational Log Overview
 
-![Sysmon Log](screenshots/sysmon_log_overview.png)
+![Sysmon Log](Screenshots-Sysmon/Capture1.PNG)
 
 The investigation began by accessing the Sysmon Operational log through Windows Event Viewer.
 
