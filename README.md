@@ -108,6 +108,19 @@ The path corresponds to the legitimate Microsoft PowerShell executable installed
 No indicators of suspicious execution paths were identified during the investigation.
 
 
+## 7. Command Line Analysis
+
+![Command Line](screenshots\commandline_field.png)
+
+The CommandLine field recorded the exact command used to launch PowerShell.
+
+Recorded value:
+
+`"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"`
+
+The process was executed without additional arguments, scripts, or encoded commands.
+
+This behavior is consistent with normal user activity.
 
 
 
