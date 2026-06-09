@@ -123,6 +123,19 @@ The process was executed without additional arguments, scripts, or encoded comma
 This behavior is consistent with normal user activity.
 
 
+## 8. Parent Process Analysis
+
+![Parent Process](screenshots/parentimage_field.png)
+
+The ParentImage field identified the process responsible for launching PowerShell.
+
+Recorded value:
+
+`C:\Windows\explorer.exe`
+
+Explorer.exe is the Windows graphical shell and commonly serves as the parent process when applications are launched manually by a user.
+
+This finding indicates that PowerShell was initiated through normal user interaction rather than by an automated process or suspicious activity.
 
 
 
