@@ -39,6 +39,22 @@ Sysmon records detailed system activity and provides enhanced visibility into pr
 This log is commonly used by SOC analysts and threat hunters during security investigations.
 
 
+## 2. Process Activity Generation
+
+![Generated Activity](screenshots/generated_activity.png)
+
+Several applications were executed to generate process creation events within the system.
+
+The following applications were launched:
+
+* Command Prompt (cmd.exe)
+* PowerShell (powershell.exe)
+* Notepad (notepad.exe)
+* Calculator
+
+Each application execution generated Sysmon Event ID 1 records, which were later investigated.
+
+
 
 
 
