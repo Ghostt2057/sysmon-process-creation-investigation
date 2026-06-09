@@ -68,7 +68,7 @@ This event type is one of the most important telemetry sources used during secur
 
 ## 4. Process Creation Events Identified
 
-![Process Events](screenshots/process_events.png)
+![Process Events]()
 
 After applying the filter, multiple process creation events were identified.
 
