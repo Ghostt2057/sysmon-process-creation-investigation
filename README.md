@@ -66,6 +66,20 @@ Event ID 1 represents a Process Creation event and is generated every time a pro
 This event type is one of the most important telemetry sources used during security monitoring and threat hunting activities.
 
 
+## 4. Process Creation Events Identified
+
+![Process Events](screenshots/process_events.png)
+
+After applying the filter, multiple process creation events were identified.
+
+The recorded events included:
+
+* cmd.exe
+* powershell.exe
+* notepad.exe
+* CalculatorApp.exe
+
+The successful detection of these events confirmed that Sysmon was correctly monitoring process activity within the system.
 
 
 
