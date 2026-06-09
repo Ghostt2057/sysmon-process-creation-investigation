@@ -82,6 +82,17 @@ The recorded events included:
 The successful detection of these events confirmed that Sysmon was correctly monitoring process activity within the system.
 
 
+## 5. PowerShell Process Investigation
+
+![PowerShell Event]()
+
+A detailed investigation was performed on the PowerShell process creation event.
+
+Sysmon provided valuable information including executable path, command-line arguments, process identifiers, user context, and parent process information.
+
+This level of visibility is extremely valuable during incident response and threat hunting investigations.
+
+
 
 
 
