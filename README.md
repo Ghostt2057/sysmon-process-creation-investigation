@@ -125,7 +125,7 @@ This behavior is consistent with normal user activity.
 
 ## 8. Parent Process Analysis
 
-![Parent Process](screenshots/parentimage_field.png)
+![Parent Process](Screenshots-Sysmon/Capture8.PNG)
 
 The ParentImage field identified the process responsible for launching PowerShell.
 
