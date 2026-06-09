@@ -41,7 +41,7 @@ This log is commonly used by SOC analysts and threat hunters during security inv
 
 ## 2. Process Activity Generation
 
-![Generated Activity](screenshots/generated_activity.png)
+![Generated Activity](Screenshots-Sysmon/Capture2.PNG)
 
 Several applications were executed to generate process creation events within the system.
 
