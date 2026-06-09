@@ -110,7 +110,7 @@ No indicators of suspicious execution paths were identified during the investiga
 
 ## 7. Command Line Analysis
 
-![Command Line](screenshots\commandline_field.png)
+![Command Line](Screenshots-Sysmon/Capture7.PNG)
 
 The CommandLine field recorded the exact command used to launch PowerShell.
 
