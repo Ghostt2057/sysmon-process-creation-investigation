@@ -84,7 +84,7 @@ The successful detection of these events confirmed that Sysmon was correctly mon
 
 ## 5. PowerShell Process Investigation
 
-![PowerShell Event]()
+![PowerShell Event](Screenshots-Sysmon/Capture5.PNG)
 
 A detailed investigation was performed on the PowerShell process creation event.
 
