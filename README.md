@@ -57,7 +57,7 @@ Each application execution generated Sysmon Event ID 1 records, which were later
 
 ## 3. Filtering Event ID 1
 
-![Event ID Filter]()
+![Event ID Filter](Screenshots-Sysmon/Capture3.PNG)
 
 The Sysmon log was filtered using Event ID 1.
 
