@@ -139,4 +139,34 @@ This finding indicates that PowerShell was initiated through normal user interac
 
 
 
+## Key Findings
+
+* Sysmon successfully recorded process creation activity.
+* Event ID 1 events were identified and analyzed.
+* Multiple processes were detected, including cmd.exe, powershell.exe, notepad.exe, and Calculator.
+* The investigated PowerShell executable was legitimate.
+* No suspicious command-line arguments were identified.
+* Explorer.exe was identified as the parent process.
+* The observed activity was consistent with normal user behavior.
+
+---
+
+# Conclusion
+
+This project demonstrated the investigation of Sysmon Event ID 1 process creation events using Windows Event Viewer.
+
+The analysis provided visibility into executable paths, command-line activity, and parent-child process relationships.
+
+Through this investigation, practical experience was gained in process monitoring, Sysmon telemetry analysis, and threat hunting fundamentals commonly used by SOC analysts and incident responders.
+
+The project highlights the value of Sysmon as a powerful source of security telemetry for detecting, investigating, and understanding system activity.
+
+
+
+
+
+
+
+
+
 
