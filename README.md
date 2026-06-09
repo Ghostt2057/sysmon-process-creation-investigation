@@ -95,7 +95,7 @@ This level of visibility is extremely valuable during incident response and thre
 
 ## 6. Image Field Analysis
 
-![Image Analysis]()
+![Image Analysis](Screenshots-Sysmon/Capture6.PNG)
 
 The Image field identified the executable responsible for the process creation event.
 
