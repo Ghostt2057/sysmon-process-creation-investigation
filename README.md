@@ -55,6 +55,17 @@ The following applications were launched:
 Each application execution generated Sysmon Event ID 1 records, which were later investigated.
 
 
+## 3. Filtering Event ID 1
+
+![Event ID Filter](screenshots/event_id_filter.png)
+
+The Sysmon log was filtered using Event ID 1.
+
+Event ID 1 represents a Process Creation event and is generated every time a process starts within the operating system.
+
+This event type is one of the most important telemetry sources used during security monitoring and threat hunting activities.
+
+
 
 
 
