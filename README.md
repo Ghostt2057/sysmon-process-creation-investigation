@@ -93,6 +93,19 @@ Sysmon provided valuable information including executable path, command-line arg
 This level of visibility is extremely valuable during incident response and threat hunting investigations.
 
 
+## 6. Image Field Analysis
+
+![Image Analysis]()
+
+The Image field identified the executable responsible for the process creation event.
+
+Recorded value:
+
+`C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`
+
+The path corresponds to the legitimate Microsoft PowerShell executable installed as part of the Windows operating system.
+
+No indicators of suspicious execution paths were identified during the investigation.
 
 
 
